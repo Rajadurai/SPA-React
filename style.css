@@ -9,14 +9,17 @@ html {
 section {
   height: 100vh;
   padding-top: 100px;
+  overflow-y: scroll;
+  padding: 6rem 4rem;
+  color: #fff;
 }
 header {
   display: flex;
   justify-content: center;
-
   align-items: center;
   height: 100px;
   background-color: gold;
+  color: #000;
   position: fixed;
   top: 0;
   width: 100%;
@@ -29,6 +32,7 @@ footer {
   align-items: center;
   height: 50px;
   background-color: #000;
+  color: #fff;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -40,18 +44,25 @@ div {
   justify-content: center;
   align-items: center;
   height: 50px;
-  color: #fff;
-  font-size: 30px;
+  /* color: #fff; */
+}
+
+h2 {
+  color: red;
 }
 
 h4 {
   text-align: center;
-  font-size: 15px;
+  font-size: 20px;
+  color: #000;
 }
 
 a {
   color: #fff;
-  font-size: 15px;
+}
+
+p {
+  color: #000;
 }
 
 img {
@@ -66,10 +77,13 @@ img {
 
 .green {
   background-color: green;
+  font-size: 30px;
 }
 .blue {
   background-color: blue;
+  font-size: 30px;
 }
 .red {
   background-color: red;
+  font-size: 30px;
 }

@@ -1,0 +1,53 @@
+* {
+  display: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+section {
+  height: 100vh;
+}
+
+footer {
+  background-color: gray;
+  font-size: 36px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  height: 10%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #000;
+}
+
+h2 {
+  height: 100px;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+p {
+  text-align: center;
+  font-size: 36px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
