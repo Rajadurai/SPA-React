@@ -1,6 +1,6 @@
 // import "./App.css";
 import "./style.css";
-import photo from "./assets/profile_photo.png";
+import photo from "./assets/profilePhoto.png";
 
 function App() {
   return (
